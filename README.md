@@ -2,7 +2,6 @@
 
 When ran the server listens for `GET` requests at `/qr` endpoint with a `url` parameter from the query string and uses the qrcode library to create a QR code image. It then saves the image to a buffer and creates a response object with the contents of the buffer. Finally, it returns the response object with the QR code image. It also automatically downloads it.
 
-
 ## Dependencies
 
 Install the following
@@ -15,7 +14,7 @@ pip install flask qrcode
 ```
 MacOS🍎 & Linux🐧
 ```bash
-pip install flask qrcode
+pip3 install flask qrcode
 ```
 
 ### How to make it work
