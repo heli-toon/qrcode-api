@@ -32,7 +32,9 @@ python3 main.py
 
 - Make a get request to `/qr` endpoint with a `url` parameter, like below 👇. Paste in your browser search bar.
 
+Example:  
+
 ```bash
-https://localhost:5000/qr?url=https://www.example.com
+https://qrcode-api-six.vercel.app/qr?url=https://www.example.com
 
 ```
